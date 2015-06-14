@@ -1,4 +1,4 @@
-package com.study.dubbo;
+package com.study.dubbo.sample;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
  
 public class Provider {
