@@ -24,4 +24,6 @@ public interface DemoService {
      *
      */
     void sayHello();
+    
+    String notifyCall(String msg);
 }

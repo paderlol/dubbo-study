@@ -4,6 +4,8 @@
  */
 package com.study.dubbo.server.impl;
 
+import java.util.Date;
+
 import com.study.dubbo.server.DemoService;
 
 /** 
@@ -28,5 +30,11 @@ public class DemoServiceImpl implements DemoService {
     public void sayHello() {
         System.out.println("Hello World!");
     }
+
+	@Override
+	public String notifyCall(String msg) {
+		System.out.println("调用notifyCall方法");
+		return new Date().toString();
+	}
 
 }
